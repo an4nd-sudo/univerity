@@ -4,7 +4,7 @@ import plotly.express as px
 
 st.header('Wholesale')
 
-df = pd.read_csv('mentornow/Wholesale_customers_data.csv')
+df = pd.read_csv('Wholesale_customers_data.csv')
 with st.expander('show data'):
     st.dataframe(df)
 
